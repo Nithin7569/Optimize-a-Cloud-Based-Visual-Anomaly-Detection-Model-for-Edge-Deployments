@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local datasets (keep out of GitHub)
+SHANGHAI_TRAIN/
+SHANGHAI_TEST/
+data/raw/
+data/interim/
+data/processed/
+
+# Local training outputs and model artifacts
+artifacts/models/
+artifacts/outputs/
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.engine
+
+# Keep useful figures in version control
+!assets/
+!assets/*.png
